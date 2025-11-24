@@ -53,7 +53,7 @@ st.divider()
 with st.expander("🚀 Run This App Locally"):
     st.code("""
     # 1. Clone the repository
-    git clone https://github.com/chiru552005/sentiment-analysis-app.git
+    git clone https://github.com/chiru5190/sentiment-analysis-app.git
     cd sentiment-analysis-app
 
     # 2. Install dependencies
