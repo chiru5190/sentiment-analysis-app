@@ -1,87 +1,81 @@
-# Sentiment-Analysis-App
+# 📊 Sentiment Analysis App
+A machine learning powered web application that classifies text sentiment (Positive, Negative, Neutral) using TF-IDF features and supervised ML models.  
+The app is built with Streamlit and supports **single text prediction** as well as **bulk sentiment analysis**.
 
-📊 Sentiment Analysis App
+---
 
-A machine-learning powered web application that analyzes text sentiment (Positive, Negative, Neutral) using a TF-IDF-based model integrated with an interactive Streamlit interface.
+## 🚀 Features
+- 🔍 **Single Text Sentiment Prediction**
+- 📂 **Bulk Analysis** using CSV files
+- ⚡ **Fast & Accurate ML Model**
+- 🧹 **Automated Text Preprocessing**
+- 📈 **Interactive Streamlit UI**
+- 💡 Easy to run and extend
 
-🚀 Features
+---
 
-🔍 Single Text Analysis – Enter any text to get instant sentiment prediction.
+## 🧠 Technologies Used
+- **Python**
+- **Streamlit**
+- **scikit-learn**
+- **NumPy**
+- **Pandas**
+- **TF-IDF Vectorizer**
 
-📂 Bulk Sentiment Analysis – Upload a CSV file and classify multiple texts at once.
+---
 
-📈 Interactive UI – Built with Streamlit for a smooth and intuitive user experience.
+## 📁 Project Structure
 
-⚡ Fast & Accurate Predictions – Uses a trained ML model with TF-IDF vectorization.
-
-🧹 Automated Preprocessing – Cleans and prepares text before prediction.
-
-🧠 Technologies Used
-
-Python
-
-Streamlit
-
-scikit-learn
-
-NumPy
-
-Pandas
-
-TF-IDF Vectorizer
-
-📁 Project Structure
+```
 Sentiment-Analysis-App/
 │
-├── app.py                 # Main Streamlit application  
-├── pages/                 # Multi-page UI
-│   ├── 1_About.py  
-│   └── 2_Bulk_Analysis.py  
+├── app.py # Main Streamlit application
+├── pages/
+│ ├── 1_About.py
+│ └── 2_Bulk_Analysis.py
 │
-├── utils.py               # Preprocessing & helper functions
-├── view_utils.py          # UI helper components
-├── sentiment_models.pkl   # Trained ML model
-├── tfidf_vectorizer.pkl   # TF-IDF vectorizer
-├── requirements.txt       # Dependencies
-└── Readme.txt
+├── utils.py # Text preprocessing utilities
+├── view_utils.py # UI helper functions
+├── sentiment_models.pkl # Trained ML model
+├── tfidf_vectorizer.pkl # TF-IDF vectorizer
+├── requirements.txt # All dependencies
+└── README.md# Additional notes
+```
+---
 
-🛠️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/<yourusername>/Sentiment-Analysis-App.git
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/<your-username>/Sentiment-Analysis-App.git
 cd Sentiment-Analysis-App
-
-2️⃣ Install dependencies
+```
+2️⃣ Install required dependencies
+```
 pip install -r requirements.txt
+```
 
-3️⃣ Run the app
+3️⃣ Run the Streamlit app
+```
 streamlit run app.py
-
+```
 🎯 How It Works
 
-User enters text (or uploads a dataset).
-
-Text is cleaned and processed using custom preprocessing steps.
-
-TF-IDF vectorizer converts text into numerical features.
-
-A trained ML model predicts the sentiment.
-
-Streamlit displays results clearly for the user.
-
-
+User inputs text (or uploads a CSV).
+The system preprocesses text: cleaning, normalization, tokenizing.
+TF-IDF converts text to numerical vectors.
+A trained ML model predicts Positive, Negative, or Neutral.
+Streamlit displays results with a clean and interactive layout.
 
 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+Contributions are welcome!
+Feel free to submit issues or pull requests.
 
 📜 License
 
-This project is open-source and available under the MIT License.
+This project is open-source under the MIT License.
 
-🙌 Acknowledgements
+Author
 
-Streamlit for the easy UI framework
-
-scikit-learn for ML algorithms
-
-Dataset used for training (customized/curated)
+chiru5190
