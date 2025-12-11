@@ -69,7 +69,6 @@ st.markdown("""
 ---
 *This application is for demonstration purposes. The model's performance may vary on text from different domains.*
 <br>
-*Created by Charan.*
 """, unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
